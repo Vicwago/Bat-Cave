@@ -1,0 +1,20 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# OpenClaw specific files
+MEMORY.md
+memory/
+USER.md
+TOOLS.md
+SOUL.md
+AGENTS.md
+BOOTSTRAP.md
+IDENTITY.md
+HEARTBEAT.md
+skills_backup_*/
