@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #f0f0f0; /* Texto claro */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #2a2a2a;
+    border-bottom: 1px solid #444;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #00bcd4; /* Un toque de color para el título */
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #00bcd4;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para Agentes */
+.agent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.agent-card {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #555;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.agent-card h3 {
+    color: #f0f0f0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.agent-card p {
+    font-size: 0.9em;
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+/* Estilos para Kanban */
+.kanban-board {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.kanban-column {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #555;
+    min-height: 300px;
+}
+
+.kanban-column h3 {
+    color: #00bcd4;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.task-card {
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #666;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.task-card h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #f0f0f0;
+}
+
+.task-card p {
+    font-size: 0.85em;
+    color: #bbb;
+    margin-bottom: 4px;
+}
+
+footer {
+    background-color: #2a2a2a;
+    border-top: 1px solid #444;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #888;
+}

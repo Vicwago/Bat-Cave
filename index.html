@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat-Cave Command Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🦇 Bat-Cave Command Center 🦇</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="agent-performance">
+            <h2>👥 Antfarm - Agentes de la Liga de la Justicia</h2>
+            <div class="agent-grid" id="agent-list">
+                <!-- Los agentes se cargarán aquí dinámicamente -->
+            </div>
+        </section>
+
+        <section id="tasks-board">
+            <h2>📋 Mission Control - Tablero Kanban</h2>
+            <div class="kanban-board" id="kanban-board">
+                <!-- Las columnas del Kanban y sus tareas se cargarán aquí dinámicamente -->
+                <div class="kanban-column" id="column-pendientes">
+                    <h3>Pendientes</h3>
+                    <div class="task-list" id="task-list-pendientes"></div>
+                </div>
+                <div class="kanban-column" id="column-en-proceso">
+                    <h3>En Proceso</h3>
+                    <div class="task-list" id="task-list-en-proceso"></div>
+                </div>
+                <div class="kanban-column" id="column-revision">
+                    <h3>Revisión</h3>
+                    <div class="task-list" id="task-list-revision"></div>
+                </div>
+                <div class="kanban-column" id="column-completado">
+                    <h3>Completado</h3>
+                    <div class="task-list" id="task-list-completado"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aquí se pueden añadir más secciones como Memory, Calendar, Content Pipeline, etc. -->
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Bat-Cave Command Center</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
