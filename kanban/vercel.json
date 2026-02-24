@@ -9,5 +9,7 @@
         { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
       ]
     }
-  ]
+  ],
+  "buildCommand": "echo 'No build step required for static HTML'",
+  "outputDirectory": "."
 }
